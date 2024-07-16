@@ -1,0 +1,92 @@
+.good-morning-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.2rem;
+}
+
+.good-morning-text-wrapper span {
+  font-family: "Montserrat", Helvetica;
+  color: #737373;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.good-morning-text-wrapper .good-morning-text-name {
+  color: var(--light-blue);
+}
+
+.good-morning-text-wrapper .good-morning-text-title {
+  color: #ff0077;
+}
+
+.dashboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1f1e22;
+  gap: 1rem;
+}
+
+.dashboard-wrapper > div p.m-0 {
+  font-family: "Montserrat", Helvetica;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.dashboard-wrapper .dashboard-indicators {
+  display: flex;
+  flex-direction: column;
+  gap: 0.01rem;
+  align-items: start;
+}
+
+.dashboard-wrapper .category-indicators {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn-add-device {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: #00abcb;
+  font-family: "Montserrat", Helvetica;
+  color: white;
+}
+
+.category {
+  background-color: #1f1e22;
+  border-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0)) 1;
+  border-radius: 8px;
+  height: 236px;
+  left: 32px;
+  position: absolute;
+  top: 0;
+  width: 364px;
+}
+
+.category-name {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.see-all {
+  color: #585858;
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  line-height: normal;
+}

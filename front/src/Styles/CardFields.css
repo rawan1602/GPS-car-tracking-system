@@ -1,0 +1,85 @@
+input,
+select {
+  font-family: "Montserrat", Helvetica;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: normal;
+  background-color: #1f1e22;
+  padding: 0.5rem;
+}
+
+input:focus,
+input:active,
+select:focus,
+select:active {
+  outline: none;
+}
+
+label {
+  color: var(--gray-100);
+  font-family: "Montserrat", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: normal;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.select-wrapper select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 30px;
+}
+
+.select-wrapper svg {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-20%);
+  pointer-events: none;
+}
+
+.select-wrapper option {
+  font-size: 12px;
+}
+
+.number-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px; /* To match typical input styling */
+  background-color: #1f1e22;
+  height: 2.4rem;
+}
+
+.number-wrapper input {
+  border: none !important;
+  outline: none;
+  flex-grow: 1;
+  padding-right: 4px; /* Prevents the value from overlapping with the unit */
+}
+
+.number-wrapper .unit {
+  margin-left: 4px; /* Space between the number and the unit */
+  color: #777; /* Dim the unit text color a bit */
+  pointer-events: none; /* Makes it non-interactive */
+}
+
+/* Optional: Hide the spinner inside the number input for a cleaner look */
+.number-wrapper input::-webkit-outer-spin-button,
+.number-wrapper input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.number-wrapper input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+  appearance: textfield;
+}

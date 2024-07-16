@@ -1,0 +1,50 @@
+#card {
+  position: absolute;
+  top: -100vh;
+  padding: 1rem;
+  transition: 0.5s ease;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #131313;
+  z-index: 1;
+}
+
+@keyframes bounce {
+  0% {
+    top: -100vh;
+  }
+  60% {
+    top: calc(50% + 20px);
+  }
+  80% {
+    top: calc(50% + 5px);
+  }
+  100% {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.drop-active {
+  animation: bounce 0.5s ease forwards;
+}
+
+@keyframes bounceBack {
+  0% {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  20% {
+    top: calc(50% + 5px);
+  }
+  40% {
+    top: calc(50% + 20px);
+  }
+  100% {
+    top: -100vh;
+  }
+}
+
+.drop-back {
+  animation: bounceBack 0.5s ease forwards;
+}

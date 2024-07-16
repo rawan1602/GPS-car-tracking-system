@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,600");
+
+:root {
+  --gray-100: rgba(116, 116, 116, 1);
+  --light-blue: rgba(0, 171, 203, 1);
+  --success: #49a32b;
+  --danger: #ff3838;
+}
+
+html {
+  height: 100%;
+}
+
+body,
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+}

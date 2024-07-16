@@ -1,0 +1,11 @@
+.car-name {
+  color: #ffffff;
+  font-family: "Montserrat", Helvetica;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  line-height: normal;
+  text-align: center;
+  text-shadow: 0px 4px 15px #ffffff26;
+}

@@ -1,0 +1,62 @@
+.text-link {
+  font-family: "Montserrat", Helvetica;
+}
+
+.profile-name {
+  font-family: "Montserrat", Helvetica;
+}
+
+.btn-logout {
+  font-family: "Montserrat", Helvetica;
+  color: var(--gray-100);
+  background-color: #2b2a2e80;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.12px;
+  line-height: normal;
+  border-radius: 0.5rem;
+  border: 0;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.contact-info-card {
+  background-color: #1f1e22;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-info-card .vertical-rectangle {
+  background-color: var(--light-blue);
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px #00abcb40;
+  width: 3px;
+  height: 2.5rem;
+  margin-left: 1rem;
+}
+
+.contact-info-card .info-label {
+  font-family: "Montserrat", Helvetica;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: normal;
+  width: fit-content;
+  margin: 0;
+}
+
+.contact-info-card .info-content {
+  font-family: "Cairo", Helvetica;
+  color: var(--light-blue);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  line-height: normal;
+  width: fit-content;
+  margin: 0;
+}

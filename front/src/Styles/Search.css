@@ -1,0 +1,25 @@
+.search-field {
+  position: relative;
+}
+
+.search-field svg {
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  transform: translate(-20%, -10%);
+}
+
+.search-field input {
+  font-family: "Montserrat", Helvetica;
+  padding-left: 2.5rem !important;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  line-height: normal;
+}
+
+.search-field input:focus,
+.search-field input:active {
+  outline: none;
+}
